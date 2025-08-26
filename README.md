@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Arunesh9952/LeetCode-Problems/tree/master/0001-two-sum) |
 | [0239-sliding-window-maximum](https://github.com/Arunesh9952/LeetCode-Problems/tree/master/0239-sliding-window-maximum) |
 ## Queue
 |  |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Arunesh9952/LeetCode-Problems/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Arunesh9952/LeetCode-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 ## String
 |  |
