@@ -54,4 +54,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1019-squares-of-a-sorted-array](https://github.com/Arunesh9952/LeetCode-Problems/tree/master/1019-squares-of-a-sorted-array) |
+## Math
+|  |
+| ------- |
+| [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/Arunesh9952/LeetCode-Problems/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 <!---LeetCode Topics End-->
