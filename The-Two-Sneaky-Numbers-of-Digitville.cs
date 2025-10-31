@@ -1,15 +1,22 @@
 public class Solution {
     public int[] GetSneakyNumbers(int[] nums) {
-        HashSet<int> seen=new HashSet<int>();
-        List<int> res=new List<int>();
-        foreach(var num in nums){
-            if(seen.Contains(num)){
-                res.Add(num);
-            }
-            else{
-               seen.Add(num);
+        
+        Dictionary<int, int> freq = new Dictionary<int, int>();
+        List<int> result = new List<int>();
+
+        foreach (int num in nums) {
+            if (freq.ContainsKey(num)) {
+                freq[num]++;
+            } else {
+                freq[num] = 1;
             }
         }
-        return res.ToArray();
+
+        foreach (var pair in freq) {
+            if (pair.Value > 1)
+                result.Add(pair.Key);
+        }
+
+        return result.ToArray();
     }
 }
